@@ -15,7 +15,7 @@ $_app_stage = 'Live'; # Do not change this
 $db_host    = "localhost"; # Database Host
 $db_port    = "";   # Database Port. Keep it blank if you are un sure.
 $db_user    = "root"; # Database Username
-$db_pass    = ""; # Database Password
+$db_pass    = "123456"; # Database Password
 $db_name    = "phpnuxbill"; # Database Name
 
 

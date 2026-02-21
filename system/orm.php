@@ -640,7 +640,6 @@ class ORM implements ArrayAccess
     // ------------------------ //
     // --- INSTANCE METHODS --- //
     // ------------------------ //
-
     /**
      * "Private" constructor; shouldn't be called directly.
      * Use the ORM::for_table factory method instead.

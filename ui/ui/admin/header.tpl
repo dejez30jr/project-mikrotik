@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>{$_title} - {$_c['CompanyName']}</title>
-    <link rel="shortcut icon" href="{$app_url}/ui/ui/images/logo.png" type="image/x-icon" />
+    <title>Hanzmanagement</title>
+    <link rel="shortcut icon" href="{$app_url}/ui/ui/images/logo-hm.png" type="image/x-icon" />
 
     <script>
         var appUrl = '{$app_url}';
@@ -38,8 +38,10 @@
     <div class="wrapper">
         <header class="main-header">
             <a href="{Text::url('dashboard')}" class="logo">
-                <span class="logo-mini"><b>N</b>uX</span>
-                <span class="logo-lg">{$_c['CompanyName']}</span>
+                <span class="logo-mini ">HM</span>
+                <div style="padding: 8px; width: 100%; height: 50px;">
+                <img src="{$app_url}/ui/ui/images/logo-min.png" type="image/x-icon" style="background-size: contain; width: 100%; height: 100%;">
+                </div>
             </a>
             <nav class="navbar navbar-static-top">
                 <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" onclick="return setKolaps()">
